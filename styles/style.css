@@ -1,0 +1,41 @@
+#main_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+
+.health_bar{
+    height: 20px;
+    border-radius: 15px;
+}
+#health{
+    background: #625858;
+    padding: 44px;
+    border-radius: 20px;
+}
+
+.btn{
+    margin-top: 12px;
+    width: 164px;
+    border-radius: 8px;
+    background-color: orange;
+    height: 40px;
+}
+#actions{
+    margin-top:16px;
+    background-color: #625858;
+    padding: 44px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
